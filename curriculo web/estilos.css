@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: #4c4747;
+  }
+
+  
+  /* Contenedor principal */
+  .contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Encabezado */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: rgb(9, 9, 15);
+    text-align: center;
+  }
+  
+  .contacto {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  a {
+    color: #2908e3;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  /* Secciones */
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #0b31ee;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  /* Listas */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Experiencia laboral y formación académica */
+  .experiencia, .estudio {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: justify;
+  }
+  
+  .fecha {
+    font-style: italic;
+    margin-bottom: 5px;
+    color: #777;
+  }
+  
+  /* Habilidades */
+  .habilidades-lista {
+    columns: 2;
+    column-gap: 10px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Referencias */
+  .referencias {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+  
+  .referencias p {
+    margin-bottom: 10px;
+  }
+
+  .datos h4{
+    text-align: justify;
+    
+  }
+  
